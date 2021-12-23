@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Oswald:wght@600&display=swap');
+
+/* Configurações gerais do código */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: Jost, Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(./assets/cafe2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* cabecalho */
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    width: 140px;
+    margin-left: -80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    color: #f1ede3;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+/* conteudo */
+
+/* conteudo principal */
+
+.conteudo {
+    margin-bottom: 60px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-weight: 400px;
+    font-size: 64px;
+    color: #d6d1c4;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-weight: 400px;
+    font-size: 24px;
+    color: #d6d1c4;
+
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #927863;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.conteudo-principal-imagem {
+    width: 430px;
+    border-radius: 50%;
+    border: 9px solid #d6d1c4
+}
+
+/* Conteúdo secundário */
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.linha-titulo-secundario {
+    width: 20%;
+    height: 0.4px;
+    background-color: beige;
+}
+
+.conteudo-secundario-titulo {
+    font-weight: 400px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+    background-color: rgba(152, 75, 0, 0.3);
+    border-radius: 8px;
+}
+
+.conteudo-secundario-paragrafo {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+/* Rodapé */
+
+.linha-rodape{
+    width: 20%;
+    height: 0.4px;
+    background-color: beige;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.rodape {
+    padding: 32px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.itens {
+    margin-top: 30px;
+    padding:30px;
+}
